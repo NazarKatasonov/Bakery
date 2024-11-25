@@ -18,6 +18,7 @@ ul {
 }
 .Header-text {
   margin-left: 50px;
+  margin-bottom: 70px;
 }
 .hero {
   background-image: url(./img/photo_2022-06-05_13-14-26\ 1.png);
@@ -158,13 +159,16 @@ ul {
   background-color: #f2f2f24d;
 }
 .cookie-quality {
-  margin-left: 300px;
+  margin-left: 420px;
+}
+.bread{
+  margin-left: 100px;
 }
 .ratings-sect {
   display: flex;
 }
 .pie {
-  margin-left: 600px;
+  margin-left: 800px;
 }
 .why-text {
   font-family: "Italiana", sans-serif;
@@ -261,4 +265,8 @@ ul {
 .Wth {
   margin-left: 450px;
   color: #ffffff;
+  font-family: "Inter", sans-serif;
+font-size: 20px;
+font-weight: 100;
+line-height: 1.21;
 }
