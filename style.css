@@ -1,0 +1,264 @@
+.container {
+  width: 1160px;
+  margin: 0 auto;
+  padding: 0 15px;
+  outline: solid red;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.infos {
+  display: flex;
+  gap: 20px;
+}
+.Header-text {
+  margin-left: 50px;
+}
+.hero {
+  background-image: url(./img/photo_2022-06-05_13-14-26\ 1.png);
+}
+.hero-title {
+  font-family: "Inter", sans-serif;
+  font-size: 70px;
+  font-weight: 200;
+  line-height: 1.21;
+  color: white;
+}
+.shop {
+  background-color: rgba(230, 98, 36, 0.63);
+  padding: 16px 34px;
+  border-radius: 17px 17px 17px 17px;
+  opacity: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 1.21;
+  color: white;
+}
+.ratings {
+  font-family: "Italiana", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1.17;
+  color: white;
+  margin-left: 450px;
+}
+.photos {
+  display: flex;
+  gap: 50px;
+  margin-top: 30px;
+}
+.photos-son {
+  padding-right: 20px;
+  background-color: #272727;
+  display: flex;
+}
+.lorem {
+  display: flex;
+}
+.links {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.21;
+  text-align: left;
+}
+.links:hover {
+  color: rgb(255, 63, 63);
+}
+.Header-text {
+  margin-top: 45px;
+}
+.hero-title {
+  font-family: "Inter", sans-serif;
+  font-size: 70px;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.hero-text {
+  width: 200px;
+  height: 200px;
+  left: 160px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: "Inter", sans-serif;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.21;
+  color: white;
+  margin-bottom: 120px;
+}
+.photos-text {
+  color: white;
+}
+.photos-son2 {
+  background-color: #d9851e;
+  display: flex;
+  padding-right: 37px;
+}
+.buy-btn {
+  margin: 20px;
+}
+.food1 {
+  display: flex;
+  gap: 200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.food2 {
+  display: flex;
+  gap: 270px;
+  margin-left: 150px;
+}
+.menu {
+  font-family: "Inter", sans-serif;
+  font-size: 64px;
+  font-weight: 100;
+  line-height: 1.21;
+  margin: auto;
+  margin-left: 550px;
+  color: white;
+}
+.bug {
+  margin-top: 55px;
+}
+.menu-father {
+  background-color: #202023;
+  gap: 300px;
+}
+.Cakes {
+  font-family: "Inter", sans-serif;
+  font-size: 25.92px;
+  font-weight: 800;
+  line-height: 1.21;
+  color: white;
+}
+.Coockies {
+  font-family: "Inter", sans-serif;
+  font-size: 25.92px;
+  font-weight: 800;
+  line-height: 1.21;
+  color: white;
+}
+.ratings-sect {
+  background-color: #202023;
+}
+.bread-text {
+  color: white;
+  margin-left: 50px;
+}
+.div-bread {
+  width: 250px;
+  background-color: #f2f2f24d;
+}
+.cookie-quality {
+  margin-left: 300px;
+}
+.ratings-sect {
+  display: flex;
+}
+.pie {
+  margin-left: 600px;
+}
+.why-text {
+  font-family: "Italiana", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.17;
+  color: white;
+  margin-left: 150px;
+}
+.why {
+  background-color: #202023;
+}
+.Order {
+  color: white;
+}
+.Order-li {
+  margin-left: 100px;
+}
+.Why-ul {
+  display: flex;
+}
+.location {
+  background-color: #202023;
+}
+.where {
+  font-family: "Italiana", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.17;
+  color: white;
+}
+.loc-pic {
+  margin-left: 70px;
+  margin-bottom: 100px;
+}
+.contact-us {
+  display: flex;
+}
+.phone-numb {
+  color: white;
+}
+.HOW {
+  color: white;
+}
+.TT {
+  color: white;
+}
+.inst {
+  color: white;
+}
+.WHEN {
+  color: white;
+}
+.times {
+  color: white;
+}
+.when-loc {
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.how-loc {
+  margin-left: 70px;
+  margin-top: 50px;
+}
+.footer {
+  background-color: #202023;
+}
+.footer-ul {
+  display: flex;
+}
+.footer-h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 200;
+  line-height: 1.21;
+  color: white;
+}
+.color-white {
+  color: white;
+}
+.color-white1 {
+  color: white;
+  margin-left: 200px;
+}
+.About-foot {
+  margin-left: 100px;
+}
+.Movement {
+  margin-left: 100px;
+}
+.comp {
+  margin-left: 100px;
+}
+.Wth {
+  margin-left: 450px;
+  color: #ffffff;
+}
