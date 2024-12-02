@@ -4,6 +4,21 @@
   padding: 0 15px;
   outline: solid red;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+li,
+form,
+label,
+input,
+button {
+  margin: 0;
+  padding: 0;
+}
 a {
   text-decoration: none;
 }
@@ -82,6 +97,12 @@ ul {
   font-weight: 200;
   line-height: 1.2;
 }
+.header {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
 .hero-text {
   width: 200px;
   height: 200px;
@@ -106,12 +127,16 @@ ul {
 .buy-btn {
   margin: 20px;
 }
+.buy-btn:hover {
+  background-color: #c85312;
+}
 .food1 {
   display: flex;
   gap: 200px;
   margin-left: 150px;
   margin-right: 150px;
 }
+
 .food2 {
   display: flex;
   gap: 270px;
@@ -126,12 +151,14 @@ ul {
   margin-left: 550px;
   color: white;
 }
+.hero {
+  padding-top: 75px;
+}
 .bug {
   margin-top: 55px;
 }
 .menu-father {
   background-color: #202023;
-  gap: 300px;
 }
 .Cakes {
   font-family: "Inter", sans-serif;
@@ -161,7 +188,7 @@ ul {
 .cookie-quality {
   margin-left: 420px;
 }
-.bread{
+.bread {
   margin-left: 100px;
 }
 .ratings-sect {
@@ -179,13 +206,19 @@ ul {
   margin-left: 150px;
 }
 .why {
-  background-color: #202023;
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 1),
+      rgba(3, 3, 3, 0)
+    ),
+    url(./img/photo_2022-06-23_21-45-36\ 1.jpg);
 }
 .Order {
   color: white;
+  margin-left: 35px;
 }
 .Order-li {
-  margin-left: 100px;
+  margin-left: 140px;
 }
 .Why-ul {
   display: flex;
@@ -266,7 +299,7 @@ ul {
   margin-left: 450px;
   color: #ffffff;
   font-family: "Inter", sans-serif;
-font-size: 20px;
-font-weight: 100;
-line-height: 1.21;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 1.21;
 }
