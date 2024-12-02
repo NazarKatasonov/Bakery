@@ -34,8 +34,10 @@ ul {
 .Header-text {
   margin-left: 50px;
   margin-bottom: 70px;
+  width: auto;
 }
 .hero {
+  padding-top: 155px;
   background-image: url(./img/photo_2022-06-05_13-14-26\ 1.png);
 }
 .hero-title {
@@ -104,11 +106,6 @@ ul {
   transform: translate(-50%);
 }
 .hero-text {
-  width: 200px;
-  height: 200px;
-  left: 160px;
-  gap: 0px;
-  opacity: 0px;
   font-family: "Inter", sans-serif;
   font-size: 21px;
   font-weight: 300;
@@ -150,9 +147,6 @@ ul {
   margin: auto;
   margin-left: 550px;
   color: white;
-}
-.hero {
-  padding-top: 75px;
 }
 .bug {
   margin-top: 55px;
