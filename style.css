@@ -22,6 +22,9 @@ button {
 a {
   text-decoration: none;
 }
+body {
+  background-color: rgba(32, 32, 35, 1);
+}
 ul {
   list-style: none;
   padding: 0;
@@ -39,6 +42,8 @@ ul {
 .hero {
   padding-top: 155px;
   background-image: url(./img/photo_2022-06-05_13-14-26\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero-title {
   font-family: "Inter", sans-serif;
@@ -65,6 +70,7 @@ ul {
   line-height: 1.17;
   color: white;
   margin-left: 450px;
+  padding-top: 140px;
 }
 .photos {
   display: flex;
@@ -148,11 +154,25 @@ ul {
   margin-left: 550px;
   color: white;
 }
+.menu-main {
+  background-color: #202023;
+  padding-bottom: 73px;
+  padding-top: 21px;
+}
 .bug {
   margin-top: 55px;
 }
 .menu-father {
-  background-color: #202023;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu-son {
+  margin-right: 197px;
+}
+.menu-son:nth-child(2n) {
+  margin-right: 0;
 }
 .Cakes {
   font-family: "Inter", sans-serif;
@@ -169,24 +189,48 @@ ul {
   color: white;
 }
 .ratings-sect {
-  background-color: #202023;
-}
-.bread-text {
-  color: white;
-  margin-left: 50px;
-}
-.div-bread {
-  width: 250px;
-  background-color: #f2f2f24d;
-}
-.cookie-quality {
-  margin-left: 420px;
-}
-.bread {
-  margin-left: 100px;
-}
-.ratings-sect {
   display: flex;
+}
+.quality {
+  background-repeat: repeat-x;
+  position: relative;
+  background-color: #202023;
+  background-image: url(./img/Group\ 54.png);
+  margin-top: 90px;
+}
+.quality-title {
+  position: relative;
+  top: -75px;
+  left: 550px;
+  color: var(--text-color);
+  font-family: "Italiana";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: white;
+}
+.quality-text {
+  background: rgba(242, 242, 242, 0.3);
+  box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(18px);
+}
+.quality-options1 {
+  display: inline-block;
+  position: relative;
+  top: -200px;
+  margin-right: 100px;
+}
+.quality-options2 {
+  display: inline-block;
+  position: relative;
+  top: -100px;
+  margin-right: 100px;
+}
+.quality-options3 {
+  display: inline-block;
+  position: relative;
+  top: 0;
 }
 .pie {
   margin-left: 800px;
@@ -198,6 +242,8 @@ ul {
   line-height: 1.17;
   color: white;
   margin-left: 150px;
+  padding-top: 55px;
+  padding-bottom: 132px;
 }
 .why {
   background-image: linear-gradient(
@@ -206,10 +252,13 @@ ul {
       rgba(3, 3, 3, 0)
     ),
     url(./img/photo_2022-06-23_21-45-36\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .Order {
   color: white;
   margin-left: 35px;
+  margin-bottom: 57px;
 }
 .Order-li {
   margin-left: 140px;
@@ -226,10 +275,14 @@ ul {
   font-weight: 400;
   line-height: 1.17;
   color: white;
+  padding-top: 55px;
+  margin-left: 70px;
+  padding-bottom: 44px;
+
 }
 .loc-pic {
   margin-left: 70px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 .contact-us {
   display: flex;
@@ -239,6 +292,7 @@ ul {
 }
 .HOW {
   color: white;
+  padding-top: 210 px;
 }
 .TT {
   color: white;
@@ -248,6 +302,7 @@ ul {
 }
 .WHEN {
   color: white;
+  padding-top: 185px;
 }
 .times {
   color: white;
@@ -272,6 +327,7 @@ ul {
   font-weight: 200;
   line-height: 1.21;
   color: white;
+padding-top: 62px;
 }
 .color-white {
   color: white;
@@ -279,15 +335,19 @@ ul {
 .color-white1 {
   color: white;
   margin-left: 200px;
+  padding-top: 30px;
 }
 .About-foot {
   margin-left: 100px;
+  padding-top: 40px;
 }
 .Movement {
   margin-left: 100px;
+  padding-top: 40px;
 }
 .comp {
   margin-left: 100px;
+  padding-top: 40px;
 }
 .Wth {
   margin-left: 450px;
@@ -296,4 +356,9 @@ ul {
   font-size: 20px;
   font-weight: 100;
   line-height: 1.21;
+  padding-bottom: 20px;
+  padding-top: 40px;
+}
+.ol-text{
+  color: white;
 }
